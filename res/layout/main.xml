@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="bottom" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:gravity="bottom" android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		 android:layout_width="fill_parent" android:layout_weight="15">
+		<TextView android:gravity="top" android:text="@string/hello"
+			android:background="@android:color/white" android:id="@+id/TextViewSended"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:scrollbars="vertical" />
+	</ScrollView>
+
+	<LinearLayout android:gravity="center" android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_weight="1">
+		
+		<EditText android:text="" android:id="@+id/EditTextCmd" android:layout_weight="5" 
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		
+		<Button android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="1"
+			 android:text="doCmd" android:id="@+id/BtnCmd" ></Button>
+	
+</LinearLayout>
+
+
+</LinearLayout>
